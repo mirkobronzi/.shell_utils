@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # TMUX CONFIG #
 
 if [ -z ${1} ];then echo -e "\n\n\terror: one parameter required (i.e., the name of the session) \n\n";exit;  fi
