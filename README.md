@@ -13,5 +13,6 @@ Then source the source.me file and copy tmux config file:
     echo "source ${HOME}/.shell_utils/config/source.me" >> ${HOME}/.zshrc
     ln -s ${HOME}/.shell_utils/config/.tmux.conf ${HOME}
     touch ${HOME}/.local.rc
+    ln -s ${HOME}/.shell_utils/config/.vimrc ${HOME}
 
 Add any local configuration commands in ${HOME}/.local.rc
